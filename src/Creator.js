@@ -1,3 +1,4 @@
+import React from "react";
 export default function Creator() {
   return (
     <div>
@@ -5,9 +6,9 @@ export default function Creator() {
         <small>
           <a
             className="source"
-            href="https://github.com/Maryna-ua/plus-week7-HW-vanilla-weather-app"
+            href="https://github.com/Maryna-ua/react-weather-app"
             target="_blank"
-            rel="noreferrer"
+            rel="noopener noreferrer"
           >
             Open-source code
           </a>{" "}
