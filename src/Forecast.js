@@ -1,9 +1,12 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+
 export default function Forecast() {
   return (
     <div className="forecast-container">
-      <div className="row">
-        <div className="col-2">
+      <Row className="row">
+        <Col className="col-2">
           <div className="card">
             <span className="temp-day">21°C</span>
             <br />
@@ -15,8 +18,8 @@ export default function Forecast() {
             <br />
             <span className="weekday">Sun</span>
           </div>
-        </div>
-        <div className="col-2">
+        </Col>
+        <Col className="col-2">
           <div className="card">
             <span className="temp-day">19°C</span>
             <br />
@@ -28,8 +31,8 @@ export default function Forecast() {
             <br />
             <span className="weekday">Mon</span>
           </div>
-        </div>
-        <div className="col-2">
+        </Col>
+        <Col className="col-2">
           <div className="card">
             <span className="temp-day">18°C</span>
             <br />
@@ -41,8 +44,8 @@ export default function Forecast() {
             <br />
             <span className="weekday">Tue</span>
           </div>
-        </div>
-        <div className="col-2">
+        </Col>
+        <Col className="col-2">
           <div className="card">
             <span className="temp-day">20°C</span>
             <br />
@@ -54,8 +57,8 @@ export default function Forecast() {
             <br />
             <span className="weekday">Wed</span>
           </div>
-        </div>
-        <div className="col-2">
+        </Col>
+        <Col className="col-2">
           <div className="card">
             <span className="temp-day">23°C</span>
             <br />
@@ -67,8 +70,8 @@ export default function Forecast() {
             <br />
             <span className="weekday">Thu</span>
           </div>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </div>
   );
 }
