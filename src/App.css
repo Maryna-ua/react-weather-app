@@ -7,7 +7,7 @@ body {
   max-width: 500px;
   height: 550px;
   background: rgb(96 95 97);
-  opacity: 75%;
+  opacity: 0.7;
   border-radius: 10px;
   box-shadow: 0.5px 1px 3px rgb(133, 133, 133);
 }
@@ -18,8 +18,8 @@ body {
 .placeForTyping {
   padding-left: 0px;
   padding-right: 0px;
-  width: 330px;
-  height: 30px;
+  width: 300px;
+  height: 37px;
   border-radius: 4px;
 }
 
@@ -47,45 +47,37 @@ body {
   margin: 0;
   padding: 0;
 }
-section {
+.section {
   margin-top: 5px;
 }
 
 h1,
 h2 {
   text-align: center;
-  font-weight: 400;
   color: white;
   text-shadow: 3px 3px 3px rgb(58, 61, 79);
 }
 h1 {
   font-size: 22px;
+  padding: 7px;
 }
 h2 {
-  margin-top: 5px;
+  font-size: 48px;
   text-decoration: overline;
   text-decoration-thickness: 2px;
-  font-size: 48px;
   font-weight: 600;
 }
 h3 {
   text-align: center;
   font-size: 70px;
-  font-weight: 300;
-  line-height: 60px;
+
   color: rgb(253, 249, 4);
   text-shadow: 3px 3px 3px rgb(58, 61, 79);
 }
 
-.transform {
-  text-decoration: none;
-  font-size: 50px;
-  color: rgb(253, 249, 4);
-}
 .indicators {
   text-align: right;
-  line-height: 25px;
-  font-weight: 750;
+  font-weight: 700;
   padding-right: 10px;
   font-size: 18px;
   color: white;
@@ -99,32 +91,22 @@ h3 {
   cursor: default;
 }
 
-.sky {
-  margin-bottom: 30px;
-  margin-left: 15px;
-  text-align: left;
-  color: white;
-  text-shadow: 3px 3px 3px rgb(58, 61, 79);
-}
-.sky::first-letter {
-  text-transform: capitalize;
-}
 .forecast-container {
   display: block;
   margin: 0 auto;
-  max-width: 470px;
+  max-width: 500px;
 }
-.col {
-  text-shadow: 0.5px 1.5px 1.5px rgb(45%, 43%, 63%);
+.col-2 {
   padding: 2px;
 }
 
 .card {
-  max-width: 79px;
-  color: white;
-  border: 1px solid white;
-  border-radius: 3px;
   background: rgb(96 95 97);
+  width: 79px;
+  text-align: center;
+  color: white;
+  text-shadow: 0.5px 1.5px 1.5px rgb(45%, 43%, 63%);
+  border: 1px solid white;
 }
 
 .temp-day {
@@ -145,28 +127,10 @@ br {
   font-weight: 600;
 }
 
-.creator {
-  text-align: center;
-}
-
 .source {
   text-decoration: underline;
 }
 
 source:hover {
-  text-decoration: underline;
   cursor: pointer;
-}
-
-@media (max-width: 670px) {
-  .indicators {
-    display: none;
-  }
-  h3 {
-    font-size: 60px;
-    line-height: 1;
-  }
-  .sky {
-    margin-bottom: 60px;
-  }
 }
