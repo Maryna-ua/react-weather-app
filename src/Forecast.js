@@ -6,8 +6,8 @@ export default function Forecast() {
   return (
     <div className="forecast-container">
       <Row className="row">
-        <Col className="col-2">
-          <div className="card">
+        <Col className="col">
+          <div className="daily-forecast">
             <span className="temp-day">21°C</span>
             <br />
             <span className="emoji">
@@ -19,8 +19,8 @@ export default function Forecast() {
             <span className="weekday">Sun</span>
           </div>
         </Col>
-        <Col className="col-2">
-          <div className="card">
+        <Col className="col">
+          <div className="daily-forecast">
             <span className="temp-day">19°C</span>
             <br />
             <span className="emoji">
@@ -32,8 +32,8 @@ export default function Forecast() {
             <span className="weekday">Mon</span>
           </div>
         </Col>
-        <Col className="col-2">
-          <div className="card">
+        <Col className="col">
+          <div className="daily-forecast">
             <span className="temp-day">18°C</span>
             <br />
             <span className="emoji">
@@ -45,8 +45,8 @@ export default function Forecast() {
             <span className="weekday">Tue</span>
           </div>
         </Col>
-        <Col className="col-2">
-          <div className="card">
+        <Col className="col">
+          <div className="daily-forecast">
             <span className="temp-day">20°C</span>
             <br />
             <span className="emoji">
@@ -58,8 +58,8 @@ export default function Forecast() {
             <span className="weekday">Wed</span>
           </div>
         </Col>
-        <Col className="col-2">
-          <div className="card">
+        <Col className="col">
+          <div className="daily-forecast">
             <span className="temp-day">23°C</span>
             <br />
             <span className="emoji">

@@ -48,7 +48,7 @@ export default function App() {
         <div>{form}</div>
         <section>
           <h1>
-            <span>Sat </span>
+            <span className="mt-5">Sat </span>
             <span className="current-time">11</span>
             <span className="current-time">:21</span>
           </h1>
@@ -96,7 +96,7 @@ export default function App() {
             <div>Wind</div>
           </div>
 
-          <h3>
+          <h3 className="mb-5">
             <span>18</span>
             <span className="units">
               <a href="/" className="active">
